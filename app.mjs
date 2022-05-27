@@ -3,7 +3,7 @@ import express from "express";
 
 
 const app = express();         
-const port = 5000;               
+let port=process.env.PORT || 3000;           
 
 app.get('/', (req, res) => {     
     fetch('https://api64.ipify.org?format=json').then(data=>data.json()).then(d=>res.send(`<textarea readonly style="font-size: 50px;">${d.ip}</textarea>
