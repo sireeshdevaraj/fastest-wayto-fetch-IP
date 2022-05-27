@@ -10,7 +10,7 @@ let port=process.env.PORT || 3000;
 app.get('/', (req, res) => {     
     res.send(`<textarea readonly style="font-size: 50px;">${req.headers['x-forwarded-for']}</textarea>
     <h1>• WHOLE PAGE IS A COPY BUTTON</h1>
-    <h2>• ⚡Blazing fastest way to get IP address with less resources</h2>
+    <h2>• ⚡Blazing fastest way to get IPv4 address with less resources</h2>
     <title>Fetch IP</title>
     <meta name="definition" content="⚡Blazing fastest way to get IP address with less resources">
     <meta name="viewport" content="width=device-width, initial-scale=1">
