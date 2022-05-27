@@ -1,0 +1,23 @@
+{
+  "name": "get-ip",
+  "version": "1.0.0",
+  "description": "fastest way to get IP of someone",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sireeshdevaraj/fastest-wayto-fetch-IP.git"
+  },
+  "author": "KuuHaKu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sireeshdevaraj/fastest-wayto-fetch-IP/issues"
+  },
+  "homepage": "https://github.com/sireeshdevaraj/fastest-wayto-fetch-IP#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4"
+  }
+}
