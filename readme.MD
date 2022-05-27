@@ -7,7 +7,7 @@
 
 
 ### req.headers['x-forwarded-for'] [refer the documentation](https://www.rfc-editor.org/rfc/rfc7239#page-6) and [express docs](http://expressjs.com/en/api.html#req.ip)
-- `req.headers['x-forwarded-for']` does the same thing
+- `req.headers['x-forwarded-for']` : 
 - If a request is passed through more than one proxy server, then each proxy will add the IP of the preceding one to the existing X-Forwarded-For header, so the `x-forwarded-for` gives you multiple ips
 - You can trim the result with `req.headers['x-forwarded-for'].split(',').shift()`
 - Basically the request passed through proxy1, proxy2, proxy3. proxy3 appears as remote address of the request.we just seperate the outputs at `,` and return the first element of the array as the output ,which is what exactly the `req.ip` does in express
