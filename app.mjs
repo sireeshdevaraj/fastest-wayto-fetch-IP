@@ -6,7 +6,7 @@ const app = express();
 let port=process.env.PORT || 3000;           
 
 app.get('/', (req, res) => {     
-    fetch('https://api64.ipify.org?format=json').then(data=>data.json()).then(d=>res.send(`<textarea readonly style="font-size: 50px;">${d.ip}</textarea>
+    fetch('https://api64.ipify.org?format=json').then(data=>data.json()).then(d=>res.send(`<textarea readonly style="font-size: 50px;">${req.ip}</textarea>
     <h1>• WHOLE PAGE IS A COPY BUTTON</h1>
     <h2>• ⚡Blazing fastest way to get IP address with less resources</h2>
     <title>Fetch IP</title>
