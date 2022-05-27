@@ -15,7 +15,6 @@ app.get('/', (req, res) => {
     <h2>• Whole thing fits in a single TCP packet (<1000 Bytes)</h2>
     <h2>• Note: There's no certain reliable way to determine the client's actual IP</h2>
     <title>Fetch IP</title>
-    <meta name="definition" content="⚡Blazing fastest way to get IP address with NO resources">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     const copyElement = document.querySelector('textarea');
