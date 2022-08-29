@@ -13,3 +13,6 @@
 - Basically the request passed through proxy1, proxy2, proxy3. proxy3 appears as remote address of the request.we just seperate the outputs at `,` and return the first element of the array as the output ,which is what exactly the `req.ip` does in express
 - you can find the `host`,`referer`  and types of `protocol` in req.headers json
 - You can use the **Geolocation** API to get the Location of the address
+
+Tasks:
++ Changing from Heroku to Netlify
